@@ -62,7 +62,7 @@
         </div>
 
         <div class="menu-container">
-            <a href="#" class="menu-item">
+            <a href="{{ url('/admin/dashboard') }}" class="menu-item">
                 <i class="bi bi-speedometer2"></i> Dashboard
             </a>
             <a href="{{ route('nasabah.index') }}" class="menu-item">
