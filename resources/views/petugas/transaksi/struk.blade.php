@@ -76,7 +76,6 @@
             <a href="{{ url('/dashboard') }}" class="menu-item"><i class="bi bi-bar-chart-fill"></i> Dashboard</a>
             <a href="{{ route('nasabah.index') }}" class="menu-item"><i class="bi bi-people"></i> Data Nasabah</a>
             <a href="{{ route('transaksi.create') }}" class="menu-item active"><i class="bi bi-recycle"></i> Setor Sampah</a>
-            <a href="#" class="menu-item"><i class="bi bi-wallet2"></i> Tarik Saldo</a>
         </div>
     </div>
 
